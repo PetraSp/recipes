@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Input from '../../components/Input';
 
 class Search extends React.Component {
@@ -10,7 +11,10 @@ class Search extends React.Component {
   }
 
   handleKeyDown = event => {
-    if (event.keyCode === 13 && event.target.value.length > 3) {
+    const { onSearch } = this.props;
+    const inputValue = event.target.value;
+    if (event.keyCode === 13 && inputValue.length > 3) {
+      onSearch(inputValue);
       this.setState({
         searchValue: ''
       });
@@ -38,5 +42,13 @@ class Search extends React.Component {
     );
   }
 }
+
+Search.propTypes = {
+  onSearch: PropTypes.func
+};
+
+Search.defaultProps = {
+  onSearch: null
+};
 
 export default Search;
