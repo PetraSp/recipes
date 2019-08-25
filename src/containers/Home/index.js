@@ -1,6 +1,7 @@
 import React from 'react';
 import Search from '../Search';
 import getRecipes from '../../services/recipes';
+import RecipeList from '../../components/RecipeList';
 
 class Home extends React.Component {
   constructor(props) {
@@ -14,7 +15,7 @@ class Home extends React.Component {
     getRecipes({ i: inputValue })
       .then(response => {
         this.setState({
-          recipes: response.results
+          recipes: response.data.results
         });
       })
       .catch(error => {
@@ -23,9 +24,11 @@ class Home extends React.Component {
   };
 
   render() {
+    const { recipes } = this.state;
     return (
       <div>
         <Search onSearch={this.handleSearch} />
+        <RecipeList recipes={recipes} />
       </div>
     );
   }
