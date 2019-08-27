@@ -31,14 +31,14 @@ class Search extends React.Component {
   render() {
     const { searchValue } = this.state;
     return (
-      <div>
-        <Input
-          placeholder="Type something here..."
-          value={searchValue}
-          onKeyDown={this.handleKeyDown}
-          onChange={this.handleInputChange}
-        />
-      </div>
+      <Input
+        inputWidth="100%"
+        containerWidth="100%"
+        placeholder="Search by Ingredients (comma separated)"
+        value={searchValue}
+        onKeyDown={this.handleKeyDown}
+        onChange={this.handleInputChange}
+      />
     );
   }
 }

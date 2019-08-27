@@ -2,6 +2,7 @@ import Styled from 'styled-components';
 
 const CardContainer = Styled.a`
   margin: 20px 0;
+  padding: 20px;
   min-width: 100%;
   background: #fafafa;
   border: 0;
@@ -19,10 +20,6 @@ const CardContainer = Styled.a`
 
 const CardFooter = Styled.div`
  margin: 10px 0;
-`;
-
-const CardContent = Styled.div`
-  padding: 10px 20px;
 `;
 
 const CardHeader = Styled.div`
@@ -87,19 +84,23 @@ const CardRibbonText = Styled.span`
 `;
 
 const CardImage = Styled.img`
-width: 120px;
-height: 80px;
-margin: 20px 20px 0 20px;
-border-radius: 10px;
+  width: 120px;
+  height: 80px;
+  border-radius: 10px;
+`;
+
+const ActionContainer = Styled.div`
+  display: flex;
+  justify-content: flex-end
 `;
 
 export default CardContainer;
 export {
   CardFooter,
-  CardContent,
   CardHeader,
   CardImage,
   RibbonWrapper,
   CardRibbon,
-  CardRibbonText
+  CardRibbonText,
+  ActionContainer
 };
