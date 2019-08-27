@@ -11,8 +11,6 @@ const Button = Styled.button`
   border-radius: 4px;
   background-color: #2eb0a8;
   color: #fff;
-  position: relative;
-  z-index: 100;
   
   :hover {
     cursor: pointer;

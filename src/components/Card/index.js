@@ -16,8 +16,7 @@ import Button from '../Button';
 function Card(props) {
   const { data } = props;
   function handleFavorite(event) {
-    console.log('stop');
-    event.stopPropagation();
+    event.preventDefault();
   }
   return (
     <CardContainer href={data.href} target="_blank">
