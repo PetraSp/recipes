@@ -1,0 +1,610 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recipe List should render 1`] = `
+<div
+  className="Container-zclqrx-0 dFlIbl"
+/>
+`;
+
+exports[`Recipe List should render list of recipes 1`] = `
+<div
+  className="Container-zclqrx-0 dFlIbl"
+>
+  <a
+    className="styles__CardContainer-ffhll0-0 hkICZX"
+    href="http://allrecipes.com/Recipe/Ginger-Champagne/Detail.aspx"
+    target="_blank"
+  >
+    <div>
+      <img
+        className="styles__CardImage-ffhll0-6 jxyrdB"
+        src="http://img.recipepuppy.com/1.jpg"
+      />
+      <div
+        className="styles__CardHeader-ffhll0-2 gHnzyz"
+      >
+        <span>
+          Ginger Champagne
+        </span>
+      </div>
+      <div
+        className="styles__CardFooter-ffhll0-1 gSEUjO"
+      >
+        <ul>
+          <li>
+            champagne
+          </li>
+          <li>
+             ginger
+          </li>
+          <li>
+             ice
+          </li>
+          <li>
+             vodka
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="styles__ActionContainer-ffhll0-7 hAZnWu"
+    >
+      <button
+        className="Button-r0xpjc-0 binmdp"
+        onClick={[Function]}
+      >
+        Make favorite
+      </button>
+    </div>
+  </a>
+  <a
+    className="styles__CardContainer-ffhll0-0 hkICZX"
+    href="http://allrecipes.com/Recipe/Potato-and-Cheese-Frittata/Detail.aspx"
+    target="_blank"
+  >
+    <div
+      className="styles__RibbonWrapper-ffhll0-3 GoqSw"
+    >
+      <div
+        className="styles__CardRibbon-ffhll0-4 kLAAdc"
+      >
+        <span
+          className="styles__CardRibbonText-ffhll0-5 dWLSSh"
+        >
+          Has lactose
+        </span>
+      </div>
+    </div>
+    <div>
+      <img
+        className="styles__CardImage-ffhll0-6 jxyrdB"
+        src="http://img.recipepuppy.com/2.jpg"
+      />
+      <div
+        className="styles__CardHeader-ffhll0-2 gHnzyz"
+      >
+        <span>
+          Potato and Cheese Frittata
+        </span>
+      </div>
+      <div
+        className="styles__CardFooter-ffhll0-1 gSEUjO"
+      >
+        <ul>
+          <li>
+            cheddar cheese
+          </li>
+          <li>
+             eggs
+          </li>
+          <li>
+             olive oil
+          </li>
+          <li>
+             onions
+          </li>
+          <li>
+             potato
+          </li>
+          <li>
+             salt
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="styles__ActionContainer-ffhll0-7 hAZnWu"
+    >
+      <button
+        className="Button-r0xpjc-0 binmdp"
+        onClick={[Function]}
+      >
+        Make favorite
+      </button>
+    </div>
+  </a>
+  <a
+    className="styles__CardContainer-ffhll0-0 hkICZX"
+    href="http://allrecipes.com/Recipe/Eggnog-Thumbprints/Detail.aspx"
+    target="_blank"
+  >
+    <div>
+      <img
+        className="styles__CardImage-ffhll0-6 jxyrdB"
+        src="http://img.recipepuppy.com/3.jpg"
+      />
+      <div
+        className="styles__CardHeader-ffhll0-2 gHnzyz"
+      >
+        <span>
+          Eggnog Thumbprints
+        </span>
+      </div>
+      <div
+        className="styles__CardFooter-ffhll0-1 gSEUjO"
+      >
+        <ul>
+          <li>
+            brown sugar
+          </li>
+          <li>
+             butter
+          </li>
+          <li>
+             butter
+          </li>
+          <li>
+             powdered sugar
+          </li>
+          <li>
+             eggs
+          </li>
+          <li>
+             flour
+          </li>
+          <li>
+             nutmeg
+          </li>
+          <li>
+             rum
+          </li>
+          <li>
+             salt
+          </li>
+          <li>
+             vanilla extract
+          </li>
+          <li>
+             sugar
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="styles__ActionContainer-ffhll0-7 hAZnWu"
+    >
+      <button
+        className="Button-r0xpjc-0 binmdp"
+        onClick={[Function]}
+      >
+        Make favorite
+      </button>
+    </div>
+  </a>
+  <a
+    className="styles__CardContainer-ffhll0-0 hkICZX"
+    href="http://allrecipes.com/Recipe/Succulent-Pork-Roast/Detail.aspx"
+    target="_blank"
+  >
+    <div>
+      <img
+        className="styles__CardImage-ffhll0-6 jxyrdB"
+        src="http://img.recipepuppy.com/4.jpg"
+      />
+      <div
+        className="styles__CardHeader-ffhll0-2 gHnzyz"
+      >
+        <span>
+          Succulent Pork Roast
+        </span>
+      </div>
+      <div
+        className="styles__CardFooter-ffhll0-1 gSEUjO"
+      >
+        <ul>
+          <li>
+            brown sugar
+          </li>
+          <li>
+             garlic
+          </li>
+          <li>
+             pork chops
+          </li>
+          <li>
+             water
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="styles__ActionContainer-ffhll0-7 hAZnWu"
+    >
+      <button
+        className="Button-r0xpjc-0 binmdp"
+        onClick={[Function]}
+      >
+        Make favorite
+      </button>
+    </div>
+  </a>
+  <a
+    className="styles__CardContainer-ffhll0-0 hkICZX"
+    href="http://allrecipes.com/Recipe/Irish-Champ/Detail.aspx"
+    target="_blank"
+  >
+    <div
+      className="styles__RibbonWrapper-ffhll0-3 GoqSw"
+    >
+      <div
+        className="styles__CardRibbon-ffhll0-4 kLAAdc"
+      >
+        <span
+          className="styles__CardRibbonText-ffhll0-5 dWLSSh"
+        >
+          Has lactose
+        </span>
+      </div>
+    </div>
+    <div>
+      <img
+        className="styles__CardImage-ffhll0-6 jxyrdB"
+        src="http://img.recipepuppy.com/5.jpg"
+      />
+      <div
+        className="styles__CardHeader-ffhll0-2 gHnzyz"
+      >
+        <span>
+          Irish Champ
+        </span>
+      </div>
+      <div
+        className="styles__CardFooter-ffhll0-1 gSEUjO"
+      >
+        <ul>
+          <li>
+            black pepper
+          </li>
+          <li>
+             butter
+          </li>
+          <li>
+             green onion
+          </li>
+          <li>
+             milk
+          </li>
+          <li>
+             potato
+          </li>
+          <li>
+             salt
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="styles__ActionContainer-ffhll0-7 hAZnWu"
+    >
+      <button
+        className="Button-r0xpjc-0 binmdp"
+        onClick={[Function]}
+      >
+        Make favorite
+      </button>
+    </div>
+  </a>
+  <a
+    className="styles__CardContainer-ffhll0-0 hkICZX"
+    href="http://allrecipes.com/Recipe/Chocolate-Cherry-Thumbprints/Detail.aspx"
+    target="_blank"
+  >
+    <div>
+      <img
+        className="styles__CardImage-ffhll0-6 jxyrdB"
+        src="http://img.recipepuppy.com/6.jpg"
+      />
+      <div
+        className="styles__CardHeader-ffhll0-2 gHnzyz"
+      >
+        <span>
+          Chocolate-Cherry Thumbprints
+        </span>
+      </div>
+      <div
+        className="styles__CardFooter-ffhll0-1 gSEUjO"
+      >
+        <ul>
+          <li>
+            cocoa powder
+          </li>
+          <li>
+             baking powder
+          </li>
+          <li>
+             butter
+          </li>
+          <li>
+             eggs
+          </li>
+          <li>
+             flour
+          </li>
+          <li>
+             oats
+          </li>
+          <li>
+             salt
+          </li>
+          <li>
+             sugar
+          </li>
+          <li>
+             vanilla extract
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="styles__ActionContainer-ffhll0-7 hAZnWu"
+    >
+      <button
+        className="Button-r0xpjc-0 binmdp"
+        onClick={[Function]}
+      >
+        Make favorite
+      </button>
+    </div>
+  </a>
+  <a
+    className="styles__CardContainer-ffhll0-0 hkICZX"
+    href="http://allrecipes.com/Recipe/Mean-Woman-Pasta/Detail.aspx"
+    target="_blank"
+  >
+    <div>
+      <img
+        className="styles__CardImage-ffhll0-6 jxyrdB"
+        src="http://img.recipepuppy.com/7.jpg"
+      />
+      <div
+        className="styles__CardHeader-ffhll0-2 gHnzyz"
+      >
+        <span>
+          Mean Woman Pasta
+        </span>
+      </div>
+      <div
+        className="styles__CardFooter-ffhll0-1 gSEUjO"
+      >
+        <ul>
+          <li>
+            garlic
+          </li>
+          <li>
+             kalamata olive
+          </li>
+          <li>
+             olive oil
+          </li>
+          <li>
+             pepperoncini
+          </li>
+          <li>
+             seashell pasta
+          </li>
+          <li>
+             tomato
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="styles__ActionContainer-ffhll0-7 hAZnWu"
+    >
+      <button
+        className="Button-r0xpjc-0 binmdp"
+        onClick={[Function]}
+      >
+        Make favorite
+      </button>
+    </div>
+  </a>
+  <a
+    className="styles__CardContainer-ffhll0-0 hkICZX"
+    href="http://allrecipes.com/Recipe/Hot-Spiced-Cider/Detail.aspx"
+    target="_blank"
+  >
+    <div>
+      <img
+        className="styles__CardImage-ffhll0-6 jxyrdB"
+        src="http://img.recipepuppy.com/8.jpg"
+      />
+      <div
+        className="styles__CardHeader-ffhll0-2 gHnzyz"
+      >
+        <span>
+          Hot Spiced Cider
+        </span>
+      </div>
+      <div
+        className="styles__CardFooter-ffhll0-1 gSEUjO"
+      >
+        <ul>
+          <li>
+            allspice
+          </li>
+          <li>
+             apple cider
+          </li>
+          <li>
+             brown sugar
+          </li>
+          <li>
+             cinnamon
+          </li>
+          <li>
+             cloves
+          </li>
+          <li>
+             nutmeg
+          </li>
+          <li>
+             orange
+          </li>
+          <li>
+             salt
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="styles__ActionContainer-ffhll0-7 hAZnWu"
+    >
+      <button
+        className="Button-r0xpjc-0 binmdp"
+        onClick={[Function]}
+      >
+        Make favorite
+      </button>
+    </div>
+  </a>
+  <a
+    className="styles__CardContainer-ffhll0-0 hkICZX"
+    href="http://allrecipes.com/Recipe/Isas-Cola-de-Mono/Detail.aspx"
+    target="_blank"
+  >
+    <div
+      className="styles__RibbonWrapper-ffhll0-3 GoqSw"
+    >
+      <div
+        className="styles__CardRibbon-ffhll0-4 kLAAdc"
+      >
+        <span
+          className="styles__CardRibbonText-ffhll0-5 dWLSSh"
+        >
+          Has lactose
+        </span>
+      </div>
+    </div>
+    <div>
+      <img
+        className="styles__CardImage-ffhll0-6 jxyrdB"
+        src="http://img.recipepuppy.com/9.jpg"
+      />
+      <div
+        className="styles__CardHeader-ffhll0-2 gHnzyz"
+      >
+        <span>
+          Isa's Cola de Mono
+        </span>
+      </div>
+      <div
+        className="styles__CardFooter-ffhll0-1 gSEUjO"
+      >
+        <ul>
+          <li>
+            cinnamon
+          </li>
+          <li>
+             cloves
+          </li>
+          <li>
+             instant coffee
+          </li>
+          <li>
+             milk
+          </li>
+          <li>
+             rum
+          </li>
+          <li>
+             vanilla extract
+          </li>
+          <li>
+             water
+          </li>
+          <li>
+             sugar
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="styles__ActionContainer-ffhll0-7 hAZnWu"
+    >
+      <button
+        className="Button-r0xpjc-0 binmdp"
+        onClick={[Function]}
+      >
+        Make favorite
+      </button>
+    </div>
+  </a>
+  <a
+    className="styles__CardContainer-ffhll0-0 hkICZX"
+    href="http://allrecipes.com/Recipe/Amys-Barbecue-Chicken-Salad/Detail.aspx"
+    target="_blank"
+  >
+    <div>
+      <img
+        className="styles__CardImage-ffhll0-6 jxyrdB"
+        src="http://img.recipepuppy.com/10.jpg"
+      />
+      <div
+        className="styles__CardHeader-ffhll0-2 gHnzyz"
+      >
+        <span>
+          Amy's Barbecue Chicken Salad
+        </span>
+      </div>
+      <div
+        className="styles__CardFooter-ffhll0-1 gSEUjO"
+      >
+        <ul>
+          <li>
+            barbecue sauce
+          </li>
+          <li>
+             chicken
+          </li>
+          <li>
+             cilantro
+          </li>
+          <li>
+             lettuce
+          </li>
+          <li>
+             ranch dressing
+          </li>
+          <li>
+             lettuce
+          </li>
+          <li>
+             tomato
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="styles__ActionContainer-ffhll0-7 hAZnWu"
+    >
+      <button
+        className="Button-r0xpjc-0 binmdp"
+        onClick={[Function]}
+      >
+        Make favorite
+      </button>
+    </div>
+  </a>
+</div>
+`;
