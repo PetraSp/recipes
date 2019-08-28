@@ -10,7 +10,11 @@ const CardContainer = Styled.a`
   justify-content: space-between;
   flex-direction: column;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s ease-in;
   border-radius: 4px;
+  :hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
   @media only screen and (min-width: 768px) {
     min-width: calc(50% - 40px);
     margin: 20px;
@@ -34,8 +38,8 @@ const CardHeader = Styled.div`
 
 const RibbonWrapper = Styled.div`
   position: relative;
-  top: -10px;
-  right: -10px;
+  top: -30px;
+  right: -30px;
 `;
 
 const CardRibbon = Styled.div`

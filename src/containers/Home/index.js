@@ -17,8 +17,16 @@ class Home extends React.Component {
     };
   }
 
+  componentDidMount() {
+    this.fetchRecipes();
+  }
+
   handleSearch = inputValue => {
-    getRecipes({ i: inputValue })
+    this.fetchRecipes({ i: inputValue });
+  };
+
+  fetchRecipes = params => {
+    getRecipes(params)
       .then(response => {
         this.setState({
           recipes: response.data.results
