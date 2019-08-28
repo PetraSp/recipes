@@ -88,7 +88,7 @@ const CardRibbonText = Styled.span`
 `;
 
 const CardImage = Styled.img`
-  width: 120px;
+  width: 80px;
   height: 80px;
   border-radius: 10px;
 `;
